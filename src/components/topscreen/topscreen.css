@@ -1,0 +1,27 @@
+.top-screen {
+  background-image: url("/images/bg-top.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 75px;
+}
+
+.top-screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-screen-inner {
+  min-height: calc(100vh-60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
