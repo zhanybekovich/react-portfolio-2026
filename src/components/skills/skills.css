@@ -1,0 +1,63 @@
+.skills {
+  background-color: #f6f6f8;
+  padding: 140px 0;
+}
+
+.skills-title {
+  margin-bottom: 60px;
+}
+
+.skills-inner {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.skills-image {
+  width: 415px;
+  height: 450px;
+  object-fit: cover;
+}
+
+.skills-list {
+  width: 665px;
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+}
+
+.skills-item {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.skills-item-progress {
+  appearance: none;
+  -webkit-appearance: none;
+  height: 32px;
+  width: 550px;
+  border: none;
+}
+
+.skills-item-progress::-webkit-progress-bar {
+  background-color: #dbdbed;
+}
+
+.skills-item-progress::-webkit-progress-value {
+  background-color: #2352de;
+  transition: width 0.4s ease;
+}
+
+.skills-item-progress::-moz-progress-bar {
+  background-color: #2352de;
+}
+
+.skills-item-label {
+  width: 100px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
