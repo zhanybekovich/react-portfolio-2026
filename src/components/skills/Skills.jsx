@@ -5,7 +5,7 @@ import image from "../../assets/skills-image.jpg";
 
 function Skills({ data }) {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <Container>
         <div className="skills-title">
           <SectionTitle text={data.title} />

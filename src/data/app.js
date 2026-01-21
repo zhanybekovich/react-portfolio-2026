@@ -26,3 +26,26 @@ export const skillsContet = {
     },
   ],
 };
+
+export const servicesContent = {
+  title: "Послуги",
+  services: [
+    {
+      icon: "/images/html-css.svg",
+      title: "Верстка проєктів",
+      description:
+        "Зроблю якісну верстку вашого проєкта за наявним макетом або прикладами робіт, які вам подобаються",
+    },
+    {
+      icon: "/images/cms.svg",
+      title: "Посадка на CMS",
+      description: "Інтегрую ваш проєкт з однією з популярних CMS",
+    },
+    {
+      icon: "/images/guarantee.svg",
+      title: "Підтримка сайта",
+      description:
+        "Гарантую підтримку вашого сайта протягом 30 днів післе здачі проєкта",
+    },
+  ],
+};
