@@ -49,3 +49,57 @@ export const servicesContent = {
     },
   ],
 };
+
+export const portfolioContent = {
+  title: "Мої роботи",
+  nav: [
+    {
+      id: "all",
+      title: "Усі роботи",
+    },
+    {
+      id: "landing",
+      title: "Лендінги",
+    },
+    {
+      id: "corporate",
+      title: "Корпоративні",
+    },
+    {
+      id: "e-commerce",
+      title: "E-commerce",
+    },
+  ],
+  works: [
+    {
+      id: 1,
+      category: "landing",
+      img: "https://img.freepik.com/free-vector/flat-psychologist-landing-page-template_23-2150041435.jpg?semt=ais_hybrid&w=740&q=80",
+    },
+    {
+      id: 2,
+      category: "landing",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnsCW7SlFV9kc2UM9_PSvgB6iNB05U8VrqFQ&s",
+    },
+    {
+      id: 3,
+      category: "corporate",
+      img: "https://img.freepik.com/free-vector/general-business-landing-page-template_23-2148994929.jpg",
+    },
+    {
+      id: 4,
+      category: "e-commerce",
+      img: "https://cdn.dribbble.com/userupload/16997757/file/original-6d481cb0624a2e46d3df96914f11827e.jpg?resize=400x0",
+    },
+    {
+      id: 5,
+      category: "landing",
+      img: "https://cdn.dribbble.com/userupload/9138329/file/original-6a36940b77111df25d80ae032d13e813.jpg?resize=400x0",
+    },
+    {
+      id: 6,
+      category: "landing",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFJbbOHLVirFWacFeFdGoTQpm9d9dfQF7fiw&s",
+    },
+  ],
+};
