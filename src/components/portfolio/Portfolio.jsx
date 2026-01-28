@@ -6,6 +6,11 @@ import { useState } from "react";
 function Portfolio({ data }) {
   const [selected, setSelected] = useState("all");
 
+  const filteredWorks =
+    selected === "all"
+      ? data.works
+      : data.works.filter((item) => item.category === selected);
+
   return (
     <section id="portfolio" className="portfolio">
       <Container>
@@ -27,8 +32,8 @@ function Portfolio({ data }) {
         </nav>
 
         <ul className="portfolio-list">
-          {data.works.map((item) => (
-            <li>
+          {filteredWorks.map((item) => (
+            <li key={item.id}>
               <img className="portfolio-item-img" src={item.img} alt="" />
             </li>
           ))}
