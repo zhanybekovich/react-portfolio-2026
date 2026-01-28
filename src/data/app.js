@@ -103,3 +103,14 @@ export const portfolioContent = {
     },
   ],
 };
+
+export const testimonialsContent = {
+  title: "Відгуки клієнтів",
+  testimonial: {
+    author: "Марк Цукерберг",
+    image: "/images/testimonial.jpg",
+    text: "Фантастично! Я цілком задоволений роботою цього спеціаліста. Швидко і якісно. Рекомендую!",
+    poster: "/images/poster.jpg",
+    video: "/video/testimonial.mp4",
+  },
+};

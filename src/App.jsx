@@ -6,10 +6,12 @@ import {
   skillsContet,
   servicesContent,
   portfolioContent,
+  testimonialsContent,
 } from "./data/app";
 import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
+import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       <Skills data={skillsContet} />
       <Services data={servicesContent} />
       <Portfolio data={portfolioContent} />
+      <Testimonials data={testimonialsContent} />
     </>
   );
 }
