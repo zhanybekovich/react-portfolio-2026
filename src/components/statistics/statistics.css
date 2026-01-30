@@ -1,0 +1,40 @@
+.stat {
+  padding: 140px 0;
+}
+
+.stat-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 17px;
+}
+
+.stat-item {
+  background-color: #f6f6f8;
+  border: 1px solid #dbdbed;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.stat-item-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.stat-item-title {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  margin: 0;
+}
+
+.stat-item-count {
+  font-size: 44px;
+  font-weight: 600;
+  margin: 0;
+}

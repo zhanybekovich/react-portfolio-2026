@@ -7,11 +7,13 @@ import {
   servicesContent,
   portfolioContent,
   testimonialsContent,
+  statisticsContent,
 } from "./data/app";
 import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
+import Statistics from "./components/statistics/Statistics";
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
       <Services data={servicesContent} />
       <Portfolio data={portfolioContent} />
       <Testimonials data={testimonialsContent} />
+      <Statistics data={statisticsContent} />
     </>
   );
 }

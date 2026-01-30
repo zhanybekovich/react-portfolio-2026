@@ -114,3 +114,28 @@ export const testimonialsContent = {
     video: "/video/testimonial.mp4",
   },
 };
+
+export const statisticsContent = {
+  items: [
+    {
+      title: "Виконаних робіт",
+      count: 56,
+      icon: "/images/works.svg",
+    },
+    {
+      title: "Задоволених клієнтів",
+      count: 23,
+      icon: "/images/clients.svg",
+    },
+    {
+      title: "Випито горнят кави",
+      count: 477,
+      icon: "/images/coffee.svg",
+    },
+    {
+      title: "Усього відгуків",
+      count: 48,
+      icon: "/images/review.svg",
+    },
+  ],
+};
