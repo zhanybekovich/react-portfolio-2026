@@ -139,3 +139,14 @@ export const statisticsContent = {
     },
   ],
 };
+
+export const contactContent = {
+  title: "Контакти",
+  description:
+    "Вийти зі мною на зв’язок можна, скориставшись контактною формою, або напряму за номером телефона, email, у соцмережах:",
+  phone: "+38 (050) 111 11 11",
+  email: "frontend-monster@email.com",
+  facebook: "https://www.facebook.com/",
+  instagram: "https://www.instagram.com/",
+  telegram: "https://www.telegram.com/",
+};

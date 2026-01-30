@@ -3,7 +3,7 @@ import "./statistics.css";
 
 function Statistics({ data }) {
   return (
-    <section className="stat">
+    <section id="statistics" className="stat">
       <Container>
         <div className="stat-wrapper">
           {data.items.map((item, idx) => (
