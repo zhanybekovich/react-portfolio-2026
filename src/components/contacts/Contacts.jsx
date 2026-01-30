@@ -6,9 +6,9 @@ function Contacts({ data }) {
   return (
     <section className="contact">
       <Container>
+        <SectionTitle text={data.title} />
         <div className="contact-wrapper">
           <div className="contact-left">
-            <SectionTitle text={data.title} />
             <p className="contact-text">{data.description}</p>
             <p className="contact-phone">{data.phone}</p>
             <p className="contact-email">{data.email}</p>
@@ -50,7 +50,7 @@ function Contacts({ data }) {
                 <label className="contact-form-label">
                   Номер телефона <br />
                   <input
-                    type="number"
+                    type="text"
                     className="contact-form-input"
                     placeholder="+380501111111"
                   />
