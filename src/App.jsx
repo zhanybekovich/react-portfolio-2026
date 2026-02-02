@@ -16,6 +16,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Statistics from "./components/statistics/Statistics";
 import Contacts from "./components/contacts/Contacts";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Testimonials data={testimonialsContent} />
       <Statistics data={statisticsContent} />
       <Contacts data={contactContent} />
+      <Footer />
     </>
   );
 }

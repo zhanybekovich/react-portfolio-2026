@@ -1,7 +1,12 @@
 import "./footer.css";
+import Logo from "../logo/Logo";
 
 function Footer() {
-  return <div>Footer</div>;
+  return (
+    <footer className="footer">
+      <Logo />
+    </footer>
+  );
 }
 
 export default Footer;
